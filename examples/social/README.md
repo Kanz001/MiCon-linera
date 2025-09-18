@@ -5,6 +5,7 @@ This example illustrates how to use event streams.
 For simplicity, each microchain represents one user—its owner. They can subscribe to other
 users and make text posts that get sent to their subscribers.
 
+"This example shows how to build a social media application using event streams. Each user is represented by their own microchain, and they can follow other users. When a user creates a text post, it's sent directly to all their followers as an event."
 ## How it Works
 
 The application's state on every microchain contains a set of posts created by this chain
