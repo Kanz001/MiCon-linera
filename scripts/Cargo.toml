@@ -1,6 +1,9 @@
 [workspace]
 resolver = "2"
-members = ["check_copyright_header"]
+members = [
+    "check_copyright_header",
+    "my_new_crate",
+]
 
 [workspace.dependencies]
 thiserror = "1.0.38"
